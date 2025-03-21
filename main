@@ -1,0 +1,14 @@
+# Utiliza una imagen base de Python
+FROM python:3.9-slim
+
+# Establece el directorio de trabajo en el contenedor
+WORKDIR /app
+
+# Copia los archivos de la aplicación al contenedor
+COPY . /app
+
+# Instala las dependencias necesarias
+RUN pip install --no-cache-dir nibabel mne scipy
+
+# Comando para ejecutar el script main.py
+CMD ["python", "main.py"] 

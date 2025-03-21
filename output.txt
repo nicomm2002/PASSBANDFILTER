@@ -1,0 +1,13 @@
+<Info | 8 non-empty values
+ bads: []
+ ch_names: Fp1, Fp2, F3, F4, C3, C4, P3, P4, O1, O2, F7, F8, T3, T4, T5, ...
+ chs: 19 EEG
+ custom_ref_applied: False
+ dig: 22 items (3 Cardinal, 19 EEG)
+ highpass: 0.0 Hz
+ lowpass: 250.0 Hz
+ meas_date: unspecified
+ nchan: 19
+ projs: []
+ sfreq: 500.0 Hz
+>
